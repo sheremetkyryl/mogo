@@ -23,7 +23,9 @@ body {
   margin-right: auto;
 }
 /*=======================HEADER=========================================*/
-.header {
+.header-container {
+  display: flex;
+  justify-content: space-between;
 }
 .logo {
   font-weight: 700;
@@ -32,6 +34,11 @@ body {
 }
 .logo-text {
   text-decoration: none;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 55px;
 }
 .nav-link {
   color: #95e1d3;
@@ -62,9 +69,7 @@ body {
   line-height: 1.47; /* 146.667% */
 }
 /*========================TEAM===============================================*/
-.team {
 
-}
 .team-title {
   font-size: 30px;
   font-weight: 700;
