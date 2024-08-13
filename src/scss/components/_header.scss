@@ -1,0 +1,20 @@
+.header {
+    padding-top: 17px;
+    padding-bottom: 80px;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+.nav-link {
+    color: var(--colorTextTertiary);
+}
+.nav-link:hover {
+    color: var(--colorHover);
+}

@@ -1,0 +1,25 @@
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-info {
+    color: var(--colorHover);
+  }
+  .subscribe {
+    display: flex;
+  }
+  .subscribe-mail {
+    padding: 12px 10px;
+  }
+  .subscribe-mail::placeholder {
+    color: var(--colorTextSecondary);
+    font-family: var(--fontTextSecondary);
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+  }

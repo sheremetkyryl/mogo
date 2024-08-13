@@ -1,0 +1,21 @@
+.team {
+    padding-bottom: 80px;
+}
+.team-title {
+    font-size: 30px;
+    font-weight: 700;
+    font-variant: all-small-caps;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.team-text {
+    color: var(--colorTextSecondary);
+    text-align: center;
+    font-family: var(--fontTextSecondary);
+    font-size: 15px;
+    margin-bottom: 27px;
+}
+.team-members {
+    display: flex;
+    gap: 30px;
+}
